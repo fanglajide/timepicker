@@ -14,7 +14,7 @@ public class CalendarCellView extends TextView {
   private static final int[] STATE_CURRENT_MONTH = {
       R.attr.state_current_month
   };
-  private static final int[] STATE_TODAY = {
+  private static final int[] STATE_TODAY = { 
       R.attr.state_today
   };
   private static final int[] STATE_HIGHLIGHTED = {
