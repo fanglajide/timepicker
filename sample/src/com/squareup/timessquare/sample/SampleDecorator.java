@@ -39,7 +39,7 @@ public class SampleDecorator implements CalendarCellDecorator {
         if (cell.isTommorow()) day = "tommorrow";
 
 
-        if (TextUtils.isEmpty(day)) day = date.getDay() + "";
+        if (TextUtils.isEmpty(day)) day = date.getDate() + "";
 
         if (cell.getRangeState() == MonthCellDescriptor.RangeState.FIRST) {
             String dateString = day;
